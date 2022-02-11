@@ -367,6 +367,34 @@ main #ourblog .flex article figure div p{
 
 
 /*final our blog*/
+/*inicio todays menu*/
+#todays {
+    margin: 0;
+    padding:20px 0;
+    background-color: var(--colorSecundario);
+}
+
+#todays h2{
+    color: white;
+}
+#todays nav ul li a
+{
+    display: block;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#todays nav ul li .activo{
+    background-color: var(--colorPrincipal);
+}
+
+
+
+
+/*final todays menu*/
 
 /* media queries 600px */
 
