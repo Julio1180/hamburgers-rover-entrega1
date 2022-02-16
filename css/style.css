@@ -362,11 +362,14 @@ main #ourblog .flex article figure div {
 main #ourblog .flex article figure div p{
     color: white;
 }
+
+
    
  
 
 
 /*final our blog*/
+
 /*inicio todays menu*/
 #todays {
     margin: 0;
@@ -374,8 +377,17 @@ main #ourblog .flex article figure div p{
     background-color: var(--colorSecundario);
 }
 
-#todays h2{
+#todays h2 {
     color: white;
+    font-size: smaller;
+}
+#todays h3{
+    color: white;
+    font-size: smaller;
+}
+#todays p{
+    color: white;
+    font-size: smaller;
 }
 #todays nav ul li a
 {
@@ -390,7 +402,36 @@ main #ourblog .flex article figure div p{
 #todays nav ul li .activo{
     background-color: var(--colorPrincipal);
 }
+#todays section div h3 {
+    margin-bottom: 10px;
+    padding: 0;
 
+}
+
+#todays div.flex {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+#todays div.flex>section{
+    width: 100%;
+}
+
+#todays div section article.flex{
+    display: flex;
+    flex-direction: column;
+}
+#todays div section article.flex figure{
+    width: 125px;
+    height: 125px;
+    font-size: smaller;
+    padding-right: 1em;
+    text-align: justify;
+    
+    
+   
+}
 
 
 
@@ -418,6 +459,9 @@ main #ourblog .flex article figure div p{
     main #aboutus .columna {
         padding: 1em;
     }
+   main #todaysmenu .flex{
+        padding: 1em;
+   }
    
 }
 
@@ -437,6 +481,19 @@ main #ourblog .flex article figure div p{
 
     footer {
         text-align: left;
+    }
+
+    #todays div.flex>section:first-child{
+        width: 40%;
+    }
+
+    #todays div.flex>section:last-child{
+        width: 60%;
+    }
+
+    #todays div section article.flex{
+        display: flex;
+        flex-direction: row;
     }
 
 }
@@ -478,7 +535,6 @@ main #ourblog .flex article figure div p{
      main #ourblog .flex article{
         width: calc(33.333% - var(--marginGrid)*2);
     }
-
-
+    
     
 }
